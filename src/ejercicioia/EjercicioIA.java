@@ -10,6 +10,8 @@ public class EjercicioIA {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce tu nombre:");
         nombre = sc.next();
-        System.out.println("Hola "+nombre);
+        IA obj = new IA();
+        System.out.println(obj.getNombre(nombre));
+        //pruebas
     }   
 }
